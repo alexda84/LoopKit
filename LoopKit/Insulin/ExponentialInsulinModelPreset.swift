@@ -36,7 +36,7 @@ extension ExponentialInsulinModelPreset {
     public var peakActivity: TimeInterval {
         switch self {
         case .rapidActingAdult:
-            return .minutes(50)
+            return .minutes(55)
         case .rapidActingChild:
             return .minutes(50)
         case .fiasp:
